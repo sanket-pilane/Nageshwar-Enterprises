@@ -71,7 +71,13 @@ export function SiteFooter() {
           <p>
             &copy; {new Date().getFullYear()} {t("brandMain")}. {t("rights")}
           </p>
-          <p>Anand Pawar &amp; Sudarshan Pawar</p>
+          <div className="flex flex-col items-center gap-1 sm:items-end">
+            <p>Anand Pawar &amp; Sudarshan Pawar</p>
+            <p>
+              Designed by{" "}
+              <span className="font-semibold text-gold">Sanket Pilane</span>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

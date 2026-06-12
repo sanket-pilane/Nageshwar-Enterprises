@@ -17,7 +17,7 @@ export const dict = {
   brandTop: { en: "Nageshwar Construction", mr: "नागेश्वर कन्स्ट्रक्शन" },
   brandMain: { en: "NAGESHWAR ENTERPRISES", mr: "नागेश्वर एंटरप्रायझेस" },
 
-  heroBadge: { en: "Trusted Since Day One", mr: "विश्वासार्ह भागीदार" },
+  heroBadge: { en: "Trusted Since Day One", mr: "पहिल्या दिवसापासून विश्वासार्ह" },
   heroTitle: {
     en: "BUILDING MATERIAL SUPPLIER & CONSTRUCTION SOLUTIONS",
     mr: "इमारत साहित्य पुरवठादार आणि बांधकाम उपाय",
@@ -101,8 +101,8 @@ export const dict = {
   formSubmit: { en: "Request a Quote", mr: "कोटेशन विनंती" },
 
   footerTagline: {
-    en: "Your trusted partner in building materials and construction solutions.",
-    mr: "इमारत साहित्य आणि बांधकाम उपायांमधील तुमचा विश्वासार्ह भागीदार.",
+    en: "Quality building materials and complete construction solutions.",
+    mr: "दर्जेदार इमारत साहित्य आणि संपूर्ण बांधकाम उपाय.",
   },
   securityBadge: { en: "Security Certified", mr: "सुरक्षा प्रमाणित" },
   rights: { en: "All rights reserved.", mr: "सर्व हक्क राखीव." },

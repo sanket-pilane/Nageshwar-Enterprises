@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata } from 'next'
 import { Geist_Mono, Inter, Noto_Sans_Devanagari, Oswald } from 'next/font/google'
+import { DesignedBy } from '@/components/designed-by'
 import './globals.css'
 
 const inter = Inter({ variable: '--font-inter', subsets: ['latin'] })
@@ -55,6 +56,7 @@ export default function RootLayout({
     >
       <body className="font-sans antialiased">
         {children}
+        <DesignedBy />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
